@@ -1,0 +1,25 @@
+{
+  "name": "mcp-demo-ts",
+  "version": "1.0.0",
+  "description": "A demo project for Model Context Protocol (MCP) using TypeScript and Express.",
+  "main": "src/server/index.ts",
+  "scripts": {
+    "start": "ts-node src/server/index.ts",
+    "client": "ts-node src/client/index.ts",
+    "build": "tsc",
+    "dev": "nodemon src/server/index.ts"
+  },
+  "keywords": ["mcp", "typescript", "express", "demo"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.0.0-beta.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.30",
+    "nodemon": "^3.0.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
